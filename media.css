@@ -1,0 +1,23 @@
+@media screen and (max-width:1350px){
+    .buttons button {
+        margin: 10px 1px;
+    }
+    
+}
+
+@media screen and (max-width:1213px){
+    .buttons button {
+        margin:10px 0;
+        padding:15px 16px;
+    }
+    
+}
+
+@media screen and (max-width:1170px){
+    .buttons button{
+        font-size:1rem;
+    }
+    .container{
+        padding:10px 5px;
+    }
+}

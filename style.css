@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+}
+
+body {
+    background-color: #30336b;
+}
+
+.container {
+    overflow: hidden;
+    border: 1px solid white;
+    height: 70vh;
+    width: 20%;
+    margin: auto;
+    margin-top: 110px;
+    padding: 10px 15px;
+    background-color:#ffff;
+}
+.text-field {
+    width: 100%;
+    height: 145px;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    border:#ffff;
+    outline:none;
+    border-bottom: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.buttons button {
+    font-size: 1.2rem;
+    padding: 15px 18px;
+    background-color:#ffffff;
+    border:#ffffff
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero,
+#percentage,
+#plus,
+#into,
+#minus,
+#devide,
+#equal {
+    padding: 15px 25px;
+}
+
+#dot {
+    font-size: 2rem;
+    padding: 0px 25px 14px;
+}
+
+#ac,
+#cut,
+#percentage,
+#plus,
+#into,
+#minus,
+#devide,
+#equal,
+#dot {
+    color: #ef7b07;
+}
