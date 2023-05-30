@@ -1,78 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
-html{
-    overflow: hidden;
+
+body{
+    background-color:#273c75;
 }
 
-body {
-    background-color: #30336b;
+.container{
+    /* border:1px solid white; */
+    width:50%;
+    margin:170px auto 0;
+    padding:5px 10px
+    /* padding:5px 190px; */
 }
 
-.container {
-    overflow: hidden;
-    border: 1px solid white;
-    height: 70vh;
-    width: 20%;
-    margin: auto;
-    margin-top: 110px;
-    padding: 10px 15px;
-    background-color:#ffff;
-}
-.text-field {
-    width: 100%;
-    height: 145px;
-    padding: 10px 20px;
-    font-size: 1.7rem;
-    font-weight: bolder;
-    border:#ffff;
-    outline:none;
-    border-bottom: 2px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+.textarea textarea{
+    width:330px;
+    height:17vh;
+    font-size:2rem;
+    margin-bottom: 10px;
 }
 
-.buttons button {
-    font-size: 1.2rem;
-    padding: 15px 18px;
-    background-color:#ffffff;
-    border:#ffffff
+button{
+    display:inline-block;
+    padding:10px 25px;
+    font-size:1.2rem;
+    margin:5px 5px 5px 8px; 
 }
 
-#one,
-#two,
-#three,
-#four,
-#five,
-#six,
-#seven,
-#eight,
-#nine,
-#zero,
-#percentage,
-#plus,
-#into,
-#minus,
-#devide,
-#equal {
-    padding: 15px 25px;
+.firstrow button{
+    padding:10px 19px;
+}
+.secondrow button:last-child{
+    padding:10px 20px;
+}
+.thirdrow button:last-child{
+    padding:10px 20px;
+}
+.fourthrow button:last-child{
+    padding:10px 20px;
+}
+.fifthrow button:nth-child(2){
+    padding:10px 20px;
+}
+.fifthrow button:nth-child(3){
+    padding:10px 28px;
+}
+.fifthrow button:last-child{
+    padding:10px 20px;
 }
 
-#dot {
-    font-size: 2rem;
-    padding: 0px 25px 14px;
-}
-
-#ac,
-#cut,
-#percentage,
-#plus,
-#into,
-#minus,
-#devide,
-#equal,
-#dot {
-    color: #ef7b07;
+#ac,#cut,#devide,#percentage,#into,#minus,#plus,#equal{
+    color:rgb(232, 68, 68);
+    
 }

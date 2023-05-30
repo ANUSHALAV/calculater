@@ -1,23 +1,53 @@
-@media screen and (max-width:1350px){
-    .buttons button {
-        margin: 10px 1px;
-    }
-    
-}
+@media screen and (max-width:700px){
 
-@media screen and (max-width:1213px){
-    .buttons button {
-        margin:10px 0;
-        padding:15px 16px;
-    }
-    
-}
-
-@media screen and (max-width:1170px){
-    .buttons button{
-        font-size:1rem;
-    }
     .container{
-        padding:10px 5px;
+        width:80%;
+    }
+    
+}
+
+
+@media screen and (max-width:500px){
+
+    .container{
+        width:95%;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    .container{
+        padding:5px 5px;
+    }
+    .textarea textarea{
+        width:220px;
+        margin-bottom: 15px;
+    }
+    button{
+        display:inline-block;
+        padding:10px 15px;
+        margin:3px 3px 5px 5px; 
+    }
+
+    .firstrow button{
+        padding:10px 10px;
+    }
+    .secondrow button:last-child{
+        padding:10px 10px;
+    }
+    .thirdrow button:last-child{
+        padding:10px 10px;
+    }
+    .fourthrow button:last-child{
+        padding:10px 10px;
+    }
+    .fifthrow button:nth-child(2){
+        padding:10px 10px;
+    }
+    .fifthrow button:nth-child(3){
+        padding:10px 20px;
+    }
+    .fifthrow button:last-child{
+        padding:10px 20px;
     }
 }
